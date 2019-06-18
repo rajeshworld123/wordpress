@@ -23,7 +23,7 @@ services:
        WORDPRESS_DB_PASSWORD: wordpress
        WORDPRESS_DB_NAME: wordpress
    nginx:
-     lables:
+     labels:
        io.rancher.scheduler.affinity:host_label: newhost=newhost
      image: nginx:latest
      ports:
